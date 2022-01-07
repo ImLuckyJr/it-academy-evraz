@@ -4,13 +4,17 @@
 
 <ul>
   <li><a href="#Что-такое-Frontend-и-кем-нам-предстоит-стать">Что такое Frontend и кем нам предстоит стать.</a></li>
-  <li><a href="#Сам-курс">Сам курс.</a></li>
-  <ol>
-    <li><a href="#make-base">Создаём основу.</a></li>
+  <li>
+    <a href="#Сам-курс">Сам курс.</a>
     <ol>
-    <li><a href="#make-main-page">Создание главной страницы.</a></li>
+      <li>
+        <a href="#make-base">Создаём основу.</a>
+        <ol>
+          <li><a href="#make-main-page">Создание главной страницы.</a></li>
+        </ol>
+      </li>
     </ol>
-  </ol>
+  </li>
 </ul>
 - 
 -  
