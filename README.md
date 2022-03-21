@@ -11,6 +11,43 @@
 <a style="dislay: none" id="contents"></a>
 ## Навигация
 
+&nbsp;&nbsp;&nbsp;<a href="#html-base">1. HTML, основы, первая страница.</a>
+
+<!-- Начало блока 1 -->
+<a style="dislay: none" id="html-base"></a>
+## 1. HTML, основы, первая страница[⬆](#contents)
+
+> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/), [Страница для верстки](#)
+
+
+<a style="dislay: none" id="base-html"></a>
+### Базовый код для HTML-страницы[⬆](#contents)
+
+<details><summary>Показать / Скрыть</summary>
+<p>
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+</p>
+</details>
+
+<hr>
+
+# Все что находится ниже - находится на доработке. Смотреть пока бессмысленно.
+
+<a style="dislay: none" id="contents"></a>
+## Навигация
+
 - <a href="#Что-такое-Frontend-и-кем-нам-предстоит-стать">Что такое Frontend и кем нам предстоит стать</a>
 - <a href="#Сам-курс">Сам курс:</a>
 
