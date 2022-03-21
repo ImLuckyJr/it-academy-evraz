@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    />
+    <title>ВДело – инвестиционная платформа | Онлайн платформа для инвестиций</title>
+</head>
+<!--    body--prevent-scroll -->
+<body class="body ">
+<div class="header">
+    <div class="c-container">
+        <div class="menu-button">
+            <div class="wrapper">
+                <svg
+                    class="menu-button--big"
+                    width="40"
+                    height="26"
+                    viewBox="0 0 40 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <line
+                        x1="2"
+                        y1="2"
+                        x2="38"
+                        y2="2"
+                        stroke="#454545"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                    />
+                    <line
+                        x1="2"
+                        y1="13"
+                        x2="38"
+                        y2="13"
+                        stroke="#454545"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                    />
+                    <line
+                        x1="2"
+                        y1="24"
+                        x2="38"
+                        y2="24"
+                        stroke="#454545"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                    />
+                </svg>
+            </div>
+        </div>
+        <div
+            class="links"
+            itemscope
+            itemtype="http://schema.org/SiteNavigationElement"
+        >
+            <div class="logo">
+                <a>
+                    <img
+                        src="assets/images/logos/logo-head.svg"
+                        alt="Логотип ВДЕЛО"
+                    />
+                </a>
+            </div>
+            <div class="links__wrapper">
+                <div class="link-item">
+                    <a
+                        href="/investors"
+                        itemprop="url"
+                    >
+                        <span itemprop="name">Для инвесторов</span>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a
+                        href="/creditors"
+                        itemprop="url"
+                    >
+                        <span itemprop="name">Для заёмщиков</span>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a
+                        href="/questions"
+                        itemprop="url"
+                    >
+                        <span itemprop="name">Вопросы</span>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a
+                        href="/contacts"
+                        itemprop="url"
+                    >
+                        <span itemprop="name">Контакты</span>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a
+                        href="/referal"
+                        target="_blank"
+                        itemprop="url"
+                    >
+                        <span itemprop="name">Реферал</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="contacts">
+                <div class="phone">
+                    <a
+                        class="phone-link"
+                        href="tel:+78002016618"
+                    >8 800 201 66 18
+                    </a>
+                </div>
+                <div class="email">
+                    <a
+                        class="mail-link"
+                        href="mailto:support@vdelo.pro"
+                    >support@vdelo.pro
+                    </a>
+                </div>
+                <div class="messengers">
+                    <a
+                        class="telegram-link"
+                        href="tg://resolve?domain=vdelomoney"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер Telegram"
+                            height="20"
+                            src="assets/images/icons/telegram.svg"
+                            width="20"
+                        >
+                    </a>
+                    <a
+                        class="whatsapp-link"
+                        href="whatsapp://send?phone=+79918005859"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер WhatsApp"
+                            height="20"
+                            src="assets/images/icons/whatsapp.svg"
+                            width="20"
+                        >
+                    </a>
+                    <a
+                        class="viber-link"
+                        href="viber://chat?number=+79918005859"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер Viber"
+                            height="20"
+                            src="assets/images/icons/viber.svg"
+                            width="20"
+                        >
+                    </a>
+                </div>
+            </div>
+            <div class="consult">
+                <button
+                    class="button"
+                    onclick="openModalConsult()"
+                >
+                    Консультация
+                </button>
+            </div>
+            <div class="auth">
+                <a
+                    href="/app/login"
+                    class="button"
+                > Войти
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="c-container">
+    <section class="main">
+        <div class="main__section">
+            <div class="logos">
+                <div class="mybusiness-logo">
+                    <img
+                        src="assets/images/logos/logo_mybiz.svg"
+                        alt="Логотип мой бизнес"
+                    />
+                </div>
+                <div class="vdelo-logo">
+                    <img
+                        src="assets/images/logos/logo_vdelo.svg"
+                        alt="Логотип ВДело"
+                    />
+                </div>
+                <div class="sofp-logo desktop">
+                    <img
+                        src="assets/images/logos/logo_sofp.svg"
+                        alt="Логотип СОФП"
+                    />
+                </div>
+            </div>
+            
+            <p>
+                Инвестиционная платформа «
+                <span class="vdelo-text">ВДЕЛО</span>
+                » – первая инвестиционная платформа, созданная инфраструктурой поддержки предпринимательства. Платформа предоставляет возможность частным инвесторам вкладывать деньги в малый и
+                средний бизнес через выдачу займов. Все операции онлайн. Займы на любые цели. Для инвесторов – бесплатно. Для заемщиков – комиссия при выдаче займов.
+            </p>
+    
+            <div>
+                <h2 >
+                    Уважаемые клиенты!
+                </h2>
+                <p >
+                    Для обеспечения бесперебойной работы и в связи с внесением ПАО Банк «ФК Открытие» в санкционный список, инвестиционная платформа ВДЕЛО открыли счет в АО "ТИНЬКОФФ БАНК" для избегания задержек при совершении операций инвесторами и заемщиками.
+                </p>
+            </div>
+
+            <div class="buttons display-mobile">
+                <button
+                    class="button"
+                    onclick="openModalConsult()"
+                >
+                    Получить консультацию
+                </button>
+            </div>
+    
+            <div class="vdelo-reestr">
+                <p>Платформа внесена Центральным Банком РФ в реестр операторов инвестиционных платформ</p>
+        
+                <div class="buttons" >
+                    <a
+                        class="button button--green"
+                        href="http://cbr.ru/finorg/foinfo/?ogrn=1206600030647"
+                        target="_blank"
+                        
+                    >
+                        <div class="reestr-link">Перейти на сайт Банка России</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="vdelo-reestr">
+                <p>
+                    Деятельность инвестиционных платформ регулируется Федеральным законом от 02.08.2019 N 259-ФЗ
+                </p>
+                
+                <p >
+                    Более 300 предприятий получили финансирование через платформу
+                </p>
+    
+                <div class="buttons" >
+                    <a
+                        class="button"
+                        href="/app/projects/issued"
+                        
+                    > Посмотреть завершенные проекты
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__section">
+            <div class="abilities">
+                <div class="lr-description">
+                    <div class="r-row">
+                        <img
+                            src="assets/images/icons/businessmen.svg"
+                            alt="Предприниматели"
+                        />
+                        <div class="label">
+                            Предприниматели привлекают <b>деньги в своё дело</b>, решение об инвестировании принимает не
+                            банк, а частные инвесторы.
+                        </div>
+                    </div>
+                    <div class="r-row">
+                        <img
+                            src="assets/images/icons/investors.svg"
+                            alt="Доход инвесторов"
+                        />
+                        
+                        <div class="label">
+                            Инвесторы получают доход и <b
+                        >вкладывают деньги в дело, помогая развитию предпринимательства в России.</b
+                        >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__section">
+            <div class="advantages">
+                <div class="shadow-container">
+                    <div class="shadow-container__title">Инвесторам</div>
+                    <div class="shadow-container__options">
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                Доход выше, чем по депозитам и облигациям (до 24%)
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                Период инвестирования от 20 дней до 12 месяцев
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                Сформирован рейтинг заёмщиков – оценка рисков
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-container">
+                    <div class="shadow-container__title">Заёмщикам</div>
+                    <div class="shadow-container__options">
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                Нет ограничений по целям займа
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                Сумма займа от 50 тыс. руб. до 1 млрд. руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="description"
+        id="about-us"
+    >
+        <div class="description__title">
+            <div class="text">О нас</div>
+        </div>
+        
+        <p>
+            Авторы проекта – команда Свердловского областного фонда поддержки предпринимательства. Мы создали платформу для содействия развития
+            предпринимательства в нашей области и во всей России. В фонде сформирован богатый опыт в экспертизе заявок на привлечение финансирования
+            от предпринимателей.
+        </p>
+        
+        <p>
+            Наш опыт в сфере выдачи займов позволяет качественно рейтинговать Заёмщиков по выверенной методике, что даёт дополнительную
+            информацию инвестору для принятия решения.
+        </p>
+    </section>
+
+    <section
+            id="creditors-rating"
+            class="description"
+    >
+        <div class="description__title">
+            <div class="text">Почему нашей экспертизе можно доверять?</div>
+        </div>
+
+        <p>
+            Экспертиза проводится на базе технической платформы Свердловского областного фонда поддержки
+            предпринимательства с использованием передовой технологии «кредитный конвейер». Суть технологии в анализе
+            данных из всех возможных баз данных, социальных сетей, а также накопленных собственных финансовых данных о
+            заёмщиках.
+        </p>
+
+        <h2>
+            Опыт экспертизы СОФПП
+        </h2>
+
+        <div class="statistics">
+            <div class="statistic">
+                <div class="statistic__title">Выдано займов:</div>
+                <div class="statistic__body">1 918</div>
+                <div class="statistic__caption"></div>
+            </div>
+            <div class="statistic">
+                <div class="statistic__title">На сумму:</div>
+                <div class="statistic__body">2 млрд 900 млн</div>
+                <div class="statistic__caption"></div>
+            </div>
+            <div class="statistic">
+                <div class="statistic__title">
+                    Уровень просроченной задолженности:
+                </div>
+                <div class="statistic__body">0,38 %</div>
+                <div class="statistic__caption">норма Банка России 15%</div>
+            </div>
+        </div>
+
+        <h2>
+            Структура выданных займов по сферам
+        </h2>
+
+        <div class="loans-areas-graph">
+            <div class="graph">
+                <div class="circle">
+                    <!-- <div id="container" ></div> -->
+                    <div id="container"></div>
+                </div>
+                <div class="circle--description">
+                    <!-- <div id="customLegend"></div> -->
+                    <div class="circle--description__row">
+                        <div class="point point-blue"></div>
+                        <div class="text">Услуги – 589 шт – 904, 9 млн руб.</div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-grey"></div>
+                        <div class="text">Производство – 281 шт – 486, 9 млн руб.</div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-gold"></div>
+                        <div class="text">Прочие – 52 шт – 83, 2 млн руб.</div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-purple"></div>
+                        <div class="text">
+                            Общественное питание – 81 шт – 105, 3 млн руб.
+                        </div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-green"></div>
+                        <div class="text">
+                            Сельское хозяйство – 62 шт – 96, 6 млн руб.
+                        </div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-red"></div>
+                        <div class="text">Строительство – 115 шт – 205 млн руб.</div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-yellow"></div>
+                        <div class="text">Торговля – 738 шт – 1 029 млрд руб.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            Структура выданных займов по целям использования
+        </h2>
+
+        <div class="loans-areas-graph">
+            <div class="graph">
+                <div class="circle">
+                    <div id="container2"></div>
+                </div>
+                <div class="circle--description">
+                    <div class="circle--description__row">
+                        <div class="point point-blue"></div>
+                        <div class="text">
+                            Оборотные средства – 589 шт – 904, 9 млн руб.
+                        </div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-grey"></div>
+                        <div class="text">
+                            Инвестиционные цели – 346 шт – 546 млн руб.
+                        </div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-yellow"></div>
+                        <div class="text">
+                            Рефинансирование кредитов в других банках – 345 шт – 523 млн руб.
+                        </div>
+                    </div>
+                    <div class="circle--description__row">
+                        <div class="point point-red"></div>
+                        <div class="text">
+                            Выплата зарплаты сотрудникам – 102 шт – 31 млн руб.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>
+            Смотрите наш <a href="https://www.youtube.com/channel/UCz9zhdtD1ihiEqqfO2WzCfA" >YouTube</a> канал
+        </h2>
+    </section>
+    
+    <section
+        id="how-it-works"
+        class="description"
+    >
+        <div class="description__title">
+            <div class="text">Основные этапы работы на платформе</div>
+        </div>
+    
+        <div class="statistics">
+            <ul class="mainStage">
+                <li>Регистрация пользователя платформы</li>
+                <li>Присоединение к правилам платформы в качестве заемщика или инвестора</li>
+                <li>Размещение заемщиком инвестиционного предложения</li>
+                <li>Проверка заемщика и присвоение рейтинга инвестиционному предложению</li>
+                <li>Публикация инвестиционного предложения на платформе и инвестирование инвесторами в выбранные инвестиционные предложения</li>
+                <li>Перевод денег заемщику</li>
+                <li>Платежи заемщиком по графику платежей и возврат инвесторами процентов и тела займа</li>
+            </ul>
+        </div>
+    
+        <div class="buttons">
+            <a
+                class="button"
+                href="/app/login"
+                target="_blank"
+            >
+                Стать инвестором
+            </a>
+            <a
+                class="button creditorsButton"
+                href="/app/login"
+                target="_blank"
+            >
+                Стать заёмщиком
+            </a>
+        </div>
+
+        <div class="platform-works">
+            <h2>
+                Платформа <br/>
+                <span class="vdelo-text">ВДЕЛО</span>
+            </h2>
+            <div class="platform-works__image screen-320">
+                <div class="documents">
+                    <a
+                        href="assets/images/1440/vdelo-platform-white.png"
+                        target="_blank"
+                    >
+                        <div class="document">
+                            <img
+                                alt="PDF"
+                                src="assets/images/icons/pdf-doc.svg"
+                            />
+                            <div class="document__name">
+                                Схема платформы
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="platform-works__image screen-not-320">
+                <img
+                    alt="Платформа ВДЕЛО"
+                    sizes="(max-width:480px) 639px, (max-width:640px) 959px, (max-width:960px) 1439px, (max-width:1440px) 1440px"
+                    src="assets/images/1440/vdelo-platform.svg"
+                    srcset="assets/images/480/vdelo-platform.svg 639w, assets/images/640/vdelo-platform.svg 959w, assets/images/960/vdelo-platform.svg 1439w, assets/images/1440/vdelo-platform.svg 1440w"
+                >
+            </div>
+            <h2>
+                Инвесторы получают доход, предприниматели быстро привлекают деньги в бизнес.
+            </h2>
+        </div>
+    </section>
+    
+    <section
+        class="description"
+        id="loans-examples"
+    >
+        <div class="description__title">
+            <div class="text">Примеры займов</div>
+        </div>
+        <div
+            class="loans"
+            id="loans"
+        >
+            <div class="loans--desktop">
+                <div class="shadow-container">
+                    <div class="shadow-container__title">ИП Полякова Наталья Николаевна</div>
+                    <div class="shadow-container__options">
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Выданная сумма:<br/>
+                                    <span class="color">16 856 163 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Срок займа:<br/>
+                                    <span class="color">180 дней</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Ставка:<br/>
+                                    <span class="color">22% годовых</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Кол-во инвесторов:<br/>
+                                    <span class="color">25 приняло участие</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-container">
+                    <div class="shadow-container__title">ООО "М ЛОГИСТИКА"</div>
+                    <div class="shadow-container__options">
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Выданная сумма:<br/>
+                                    <span class="color">2 100 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Срок займа:<br/>
+                                    <span class="color">45 дней</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Ставка:<br/>
+                                    <span class="color">20% годовых</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Кол-во инвесторов:<br/>
+                                    <span class="color">8 приняло участие</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-container">
+                    <div class="shadow-container__title">ООО "Лига"</div>
+                    <div class="shadow-container__options">
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Выданная сумма:<br/>
+                                    <span class="color">4 000 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Срок займа:<br/>
+                                    <span class="color">90 дней</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Ставка: <br/>
+                                    <span class="color">18% годовых</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shadow-container__option">
+                            <div class="shadow-container__text">
+                                <div>
+                                    Кол-во инвесторов: <br/>
+                                    <span class="color">22 приняло участие</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="loans--mobile">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="shadow-container">
+                            <div class="shadow-container__title">ИП Полякова Наталья Николаевна</div>
+                            <div class="shadow-container__options">
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Выданная сумма:<br/>
+                                            <span class="color">16 856 163 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Срок займа:<br/>
+                                            <span class="color">180 дней</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Ставка:<br/>
+                                            <span class="color">22% годовых</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Кол-во инвесторов:<br/>
+                                            <span class="color">25 приняло участие</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-container">
+                            <div class="shadow-container__title">ООО "М ЛОГИСТИКА"</div>
+                            <div class="shadow-container__options">
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Выданная сумма:<br/>
+                                            <span class="color">2 100 000 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Срок займа:<br/>
+                                            <span class="color">45 дней</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Ставка:<br/>
+                                            <span class="color">20% годовых</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Кол-во инвесторов:<br/>
+                                            <span class="color">8 приняло участие</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shadow-container">
+                            <div class="shadow-container__title">ООО "Лига"</div>
+                            <div class="shadow-container__options">
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Выданная сумма:<br/>
+                                            <span class="color">4 000 000 ₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Срок займа:<br/>
+                                            <span class="color">90 дней</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Ставка: <br/>
+                                            <span class="color">18% годовых</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow-container__option">
+                                    <div class="shadow-container__text">
+                                        <div>
+                                            Кол-во инвесторов: <br/>
+                                            <span class="color">22 приняло участие</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="crowdfunding">
+            <span
+                    class="vdelo-text"
+                    
+            >
+                Краудлендинг
+            </span>
+            – привлечение инвестиций в бизнес от широкого круга инвесторов с использованием инвестиционной платформы.
+            Этот способ инвестирования, повышения уровня доходов, регулируется Федеральным законом от 02.08.2019
+            №259-ФЗ.
+        </p>
+    
+        <p>
+            Данный инструмент выгоднее депозитов (вкладов) в банках и покупки облигаций. Если вы задумываетесь, куда
+            вкладывать деньги в 2021 году – краудвинвестинг один из способов выгодно вложить деньги под проценты с
+            возможностью получения высокого дохода.
+        </p>
+        <div class="buttons">
+            <button
+                class="button"
+                onclick="openModalConsult()"
+            >
+                Получить консультацию
+            </button>
+        </div>
+    </section>
+    
+    <section
+        class="description"
+        id="documents"
+    >
+        <div class="description__title">
+            <div class="text">Документы</div>
+        </div>
+        
+        <h2>
+            Документы платформы
+        </h2>
+        
+        <div class="documents">
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 9.pdf"
+                href="/docs/platform-docs/Platform_rules.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 9 (опубликованы 10.11.2021 г.,
+                        действуют с 16.11.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att1_statement_of_the_person_attracting_investment.pdf"
+                target="_blank"
+                download="Заявление о присоединении к Правилам Платформы в качестве Лица, привлекающего инвестиции.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Заявление о присоединении к Правилам Платформы в качестве Лица, привлекающего инвестиции
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att2_statement_investor_accession.pdf"
+                target="_blank"
+                download="Заявление о присоединении к Правилам Платформы в качестве Инвестора.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Заявление о присоединении к Правилам Платформы в качестве Инвестора
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att3_tariffs_form.pdf"
+                target="_blank"
+                download="Тарифы Платформы.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Тарифы Платформы
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att4_agreement_loan.pdf"
+                target="_blank"
+                download="Договор инвестирования (займа).pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Договор инвестирования (займа)
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att5_investment_proposal_of_loan_agreement.pdf"
+                target="_blank"
+                download="Инвестиционное предложение (Оферта).pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Инвестиционное предложение (Оферта)
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att6_statement_for_acceptance_of_loan_agreement.pdf"
+                target="_blank"
+                download="Заявление Инвестора об акцепте оферты Заемщика.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Заявление Инвестора об акцепте оферты Заемщика
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att7_payment_schedule.pdf"
+                target="_blank"
+                download="График платежей по договору займа.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        График платежей по договору займа
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att8_agreement_guarantee.pdf"
+                target="_blank"
+                download="Договор поручительства.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Договор поручительства
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att9_agreement_pledge_hypothec.pdf"
+                target="_blank"
+                download="Договор залога (ипотеки).pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Договор залога недвижимого имущества (ипотеки)
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att10_mortgage.pdf"
+                target="_blank"
+                download="Закладная.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Закладная
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att11_agreement_pledge_other_property.pdf"
+                target="_blank"
+                download="Договор залога иного имущества.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Договор залога иного имущества
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att12_agreement_pledge_management.pdf"
+                target="_blank"
+                download="Договор управления залогом.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Договор управления залогом
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att13_risk_declaration.pdf"
+                target="_blank"
+                download="Декларация о рисках.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Декларация о рисках
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att14_person_data_policy.pdf"
+                target="_blank"
+                download="Политика в отношении обработки персональных данных.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Политика в отношении обработки персональных данных
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att15_loan_agreements_from_register.pdf"
+                target="_blank"
+                download="Выписка из реестра договоров инвестирования (займа).pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Выписка из реестра договоров инвестирования (займа)
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att16_procedure_recognizing_individual_as_qualified_investor.pdf"
+                target="_blank"
+                download="Порядок признания физического лица квалифицированным инвестором.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Порядок признания физического лица квалифицированным инвестором
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Att17_conflict_of_interest_management_regulation.pdf"
+                target="_blank"
+                download="Положение по управлению конфликтами интересов.pdf"
+            >
+                <div class="document">
+                    <img
+                        src="assets/images/icons/pdf-doc.svg"
+                        alt="PDF"
+                    />
+                    <div class="document__name">
+                        Положение по управлению конфликтами интересов
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Уведомление об исполнении обязательства третьим лицом.pdf"
+                href="/docs/platform-docs/Att18_notification_of_the_fulfillment_of_an_obligation_by_a_third_party.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Уведомление об исполнении обязательства третьим лицом
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Заявление об исполнении обязательства заёмщика.pdf"
+                href="/docs/platform-docs/Att19_application_for_the_fulfillment_of_the_borrowers_obligation.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Заявление об исполнении обязательства заёмщика
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Conditions_of_the_investment_attraction_agreement.pdf"
+                target="_blank"
+                download="Условия договора об оказании услуг по привлечению инвестиций.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Условия договора об оказании услуг по привлечению инвестиций
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Conditions_of_the_investment_assistance_agreement.pdf"
+                target="_blank"
+                download="Условия договора об оказании услуг по содействию в инвестировании.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Условия договора об оказании услуг по содействию в инвестировании
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Conditions_of_the_collection_cession_agreement.pdf"
+                target="_blank"
+                download="Условия договора инкассо-цессии.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Условия договора инкассо-цессии
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/platform-docs/Platform_rules_changes.pdf"
+                target="_blank"
+                download="Информационная справка об изменениях в Правилах пользования Инвестиционной платформы «Вдело».pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Информационная справка о существенных изменениях, внесенных в правила платформы
+                    </div>
+                </div>
+            </a>
+            <!--<a-->
+            <!--        href="/docs/platform-docs/Procedure_for_accepting_an_investment_proposal.pdf"-->
+            <!--        target="_blank"-->
+            <!--&gt;-->
+            <!--    <div class="document">-->
+            <!--        <img-->
+            <!--                alt="PDF"-->
+            <!--                src="assets/images/icons/pdf-doc.svg"-->
+            <!--        />-->
+            <!--        <div class="document__name">-->
+            <!--            Порядок принятия инвестиционного предложения-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</a>-->
+            <!--<a-->
+            <!--        href="/docs/platform-docs/Procedure_for_joining_agreements.pdf"-->
+            <!--        target="_blank"-->
+            <!--&gt;-->
+            <!--    <div class="document">-->
+            <!--        <img-->
+            <!--                alt="PDF"-->
+            <!--                src="assets/images/icons/pdf-doc.svg"-->
+            <!--        />-->
+            <!--        <div class="document__name">-->
+            <!--            Порядок действий, необходимых для присоединения к договору об оказании услуг по привлечению инвестиций, к договору об оказании услуг по содействию в инвестировании-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</a>-->
+        </div>
+        
+        <h2>
+            Раскрытие информации и отчетность
+        </h2>
+        
+        <div class="documents">
+            <a
+                href="/docs/reporting/Annual_report_of_the_platform_operator.pdf"
+                target="_blank"
+                download="Годовой отчет Оператора Платформы о результатах деятельности по организации привлечения инвестиций.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Годовой отчет Оператора Платформы о результатах деятельности по организации привлечения
+                        инвестиций
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Investor_actions_of_obligations_failure_of_borrower.pdf"
+                target="_blank"
+                download="Информация о действиях, которые могут быть предприняты инвестором в случае неисполнения обязательств лицом, привлекающим инвестирование.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Информация о действиях, которые могут быть предприняты инвестором в случае неисполнения
+                        обязательств лицом, привлекающим инвестирование
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Platform_operator_recognition_of_person_as_qualified_investor.pdf"
+                target="_blank"
+                download="Информация о том, является ли признание оператором инвестиционной платформы гражданина квалифицированным инвестором необходимым условием для оказания ему услуг по  содействию в инвестировании.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Информация о том, является ли признание оператором инвестиционной платформы гражданина
+                        квалифицированным инвестором необходимым условием для оказания ему услуг по содействию в
+                        инвестировании
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Information_about_platform_operator.pdf"
+                target="_blank"
+                download="Информация об операторе инвестиционной платформы и его деятельности.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Информация об операторе инвестиционной платформы и его деятельности
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Information_about_the_persons_controlling_the_platform_operator.pdf"
+                target="_blank"
+                download="Сведения о лицах, контролирующих оператора инвестиционной платформы.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Сведения о лицах, контролирующих оператора инвестиционной платформы
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Structure_info.pdf"
+                target="_blank"
+                download="Сведения о структуре и персональном составе органов управления оператора инвестиционной платформы.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Сведения о структуре и персональном составе органов управления оператора инвестиционной
+                        платформы
+                    </div>
+                </div>
+            </a>
+            <a
+                href="/docs/reporting/Term_recovery_platform.pdf"
+                target="_blank"
+                download="Срок восстановления функционирования инвестиционной платформы в случае нарушения ее функционирования.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Срок восстановления функционирования инвестиционной платформы в случае нарушения ее
+                        функционирования
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Аудиторское заключение.pdf"
+                href="/docs/reporting/Audit_report.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Аудиторское заключение
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Устав.tif"
+                target="_blank"
+                href="/docs/reporting/Ustav.tiff"
+            >
+                <div class="document">
+                    <img
+                        src="assets/images/icons/pdf-doc.svg"
+                        alt="PDF"
+                    />
+                    <div class="document__name">
+                        Устав
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Раскрытие информации о конфликтах интересов между Инвестором и Оператором.pdf"
+                href="/docs/reporting/Disclosure_of_information_on_conflicts_of_interest.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Раскрытие информации о конфликтах интересов между Инвестором и Оператором
+                    </div>
+                </div>
+            </a>
+            <a
+                href="https://docs.google.com/spreadsheets/d/1-wvRnutSVDCJOme3HAdLO_dQkhDh743KazfXr7L07hc/edit#gid=0"
+                target="_blank"
+            >
+                <div class="document">
+                    Завершенные инвестиционные предложения, по которым произошел набор максимальной суммы
+                </div>
+            </a>
+        </div>
+        
+        <h2>
+            Архив
+        </h2>
+        
+        <div class="documents">
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 8.pdf"
+                href="/docs/archive/Platform_rules_v8.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 8 (опубликованы 09.07.2021 г.,
+                        срок действия с 14.07.2021 г. по 15.11.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 7.pdf"
+                href="/docs/archive/Platform_rules_v7.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 7 (опубликованы 04.03.2021 г.,
+                        срок действия с 09.03.2021 г. по 13.07.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 6.pdf"
+                href="/docs/archive/Platform_rules_v6.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 6 (опубликованы 28.01.2021 г.,
+                        срок действия с 02.02.2021 г. по 08.03.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 5.pdf"
+                href="/docs/archive/Platform_rules_v5.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 5 (опубликованы 31.12.2020 г.,
+                        срок действия с 11.01.2021 г. по 01.02.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 4.pdf"
+                href="/docs/archive/Platform_rules_v4.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 4 (опубликованы 27.10.2020 г.,
+                        срок действия с 04.11.2020 г. по 10.01.2021 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 3.pdf"
+                href="/docs/archive/Platform_rules_v3.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 3 (опубликованы 29.09.2020 г.,
+                        срок действия с 06.10.2020 г. по 03.11.2020 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 2.pdf"
+                href="/docs/archive/Platform_rules_v2.pdf"
+                target="_blank"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 2 (опубликованы 27.07.2020 г.,
+                        срок действия с 28.07.2020 г. по 05.10.2020 г.)
+                    </div>
+                </div>
+            </a>
+            <a
+                download="Правила пользования Инвестиционной платформой «ВДЕЛО» редакция 1.pdf"
+                target="_blank"
+                href="/docs/archive/Platform_rules_v1.pdf"
+            >
+                <div class="document">
+                    <img
+                        alt="PDF"
+                        src="assets/images/icons/pdf-doc.svg"
+                    />
+                    <div class="document__name">
+                        Правила пользования Инвестиционной платформой «ВДЕЛО», редакция 1 (опубликованы 29.06.2020 г.,
+                        срок действия с 03.07.2020 г. по 27.07.2020 г.)
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="buttons">
+            <button
+                class="button"
+                onclick="openModalConsult()"
+            >
+                Получить консультацию
+            </button>
+        </div>
+    </section>
+</div>
+<div class="footer">
+    <div class="c-container">
+        <div class="logo-item">
+            <img
+                alt="Логотип ВДЕЛО"
+                class="logo"
+                src="assets/images/logos/logo_vdelo_1440_footer.svg"
+            />
+            <div class="social-icons">
+                <a
+                    class="vk-social"
+                    href="https://vk.com/vdelo.invest"
+                    itemprop="url"
+                    target="_blank"
+                ></a>
+                <a
+                    class="instagram-social"
+                    href="https://www.instagram.com/_vdelo.pro/"
+                    itemprop="url"
+                    target="_blank"
+                ></a>
+                <a
+                    class="facebook-social"
+                    href="https://www.facebook.com/Vdelo.invest"
+                    itemprop="url"
+                    target="_blank"
+                ></a>
+                <a
+                    class="youtube-social"
+                    href="https://www.youtube.com/channel/UCz9zhdtD1ihiEqqfO2WzCfA"
+                    itemprop="url"
+                    target="_blank"
+                ></a>
+            </div>
+        </div>
+
+        <div class="vdelo-menu-info">
+            <div class="logo-menu">
+                <div
+                  class="menu"
+                  itemscope
+                  itemtype="http://schema.org/SiteNavigationElement"
+                >
+                    <div class="menu__title">
+                        МЕНЮ
+                    </div>
+                    <div class="menu__link">
+                        <a>Главная</a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                          href="/investors"
+                          itemprop="url"
+                        >
+                            <span itemprop="name">Для инвесторов</span>
+                        </a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                          href="/creditors"
+                          itemprop="url"
+                        >
+                            <span itemprop="name">Для заёмщиков</span>
+                        </a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                          href="/questions"
+                          itemprop="url"
+                        >
+                            <span itemprop="name">Вопросы</span>
+                        </a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                          href="/contacts"
+                          itemprop="url"
+                        >
+                            <span itemprop="name">Контакты</span>
+                        </a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                          href="/blog"
+                          itemprop="url"
+                        >
+                            <span itemprop="name">Блог</span>
+                        </a>
+                    </div>
+                    <div class="menu__link">
+                        <a
+                                href="/referal"
+                                target="_blank"
+                                itemprop="url"
+                        >
+                            <span itemprop="name">Реферал</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vdelo-info">
+                <div class="contacts">
+                    <div class="phone">
+                        <a
+                          class="phone-link"
+                          href="tel:+78002016618"
+                        >8 800 201 66 18
+                        </a>
+                    </div>
+                    <div class="email">
+                        <a
+                          class="mail-link"
+                          href="mailto:support@vdelo.pro"
+                        >support@vdelo.pro
+                        </a>
+                    </div>
+                    <div class="messengers">
+                        <a
+                            class="telegram-link"
+                            href="tg://resolve?domain=vdelomoney"
+                            itemprop="url"
+                        >
+                            <img
+                                alt="Мессенджер Telegram"
+                                height="25"
+                                src="assets/images/icons/telegram.svg"
+                                width="25"
+                            >
+                        </a>
+                        <a
+                            class="whatsapp-link"
+                            href="whatsapp://send?phone=+79918005859"
+                            itemprop="url"
+                        >
+                            <img
+                                alt="Мессенджер WhatsApp"
+                                height="25"
+                                src="assets/images/icons/whatsapp.svg"
+                                width="25"
+                            >
+                        </a>
+                        <a
+                            class="viber-link"
+                            href="viber://chat?number=+79918005859"
+                            itemprop="url"
+                        >
+                            <img
+                                alt="Мессенджер Viber"
+                                height="25"
+                                src="assets/images/icons/viber.svg"
+                                width="25"
+                            >
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    Официальные партнеры: <br>
+                    ПАО «Сбербанк» и <br>
+                    АО «Деловая среда»
+                </div>
+                <img src="assets/images/icons/sbek_futter.svg" width="117" height="31">
+            </div>
+        </div>
+        
+        <div class="logo-menu">
+            <div
+              class="menu"
+              itemscope
+              itemtype="http://schema.org/SiteNavigationElement"
+            >
+                <div class="menu__title">
+                    МЕНЮ
+                </div>
+                <div class="menu__link">
+                    <a>Главная</a>
+                </div>
+                <div class="menu__link">
+                    <a
+                      href="/investors"
+                      itemprop="url"
+                    >
+                        <span itemprop="name">Для инвесторов</span>
+                    </a>
+                </div>
+                <div class="menu__link">
+                    <a
+                      href="/creditors"
+                      itemprop="url"
+                    >
+                        <span itemprop="name">Для заёмщиков</span>
+                    </a>
+                </div>
+                <div class="menu__link">
+                    <a
+                      href="/questions"
+                      itemprop="url"
+                    >
+                        <span itemprop="name">Вопросы</span>
+                    </a>
+                </div>
+                <div class="menu__link">
+                    <a
+                      href="/contacts"
+                      itemprop="url"
+                    >
+                        <span itemprop="name">Контакты</span>
+                    </a>
+                </div>
+                <div class="menu__link">
+                    <a
+                      href="/blog"
+                      itemprop="url"
+                    >
+                        <span itemprop="name">Блог</span>
+                    </a>
+                </div>
+                <div class="menu__link">
+                    <a
+                            href="/referal"
+                            target="_blank"
+                            itemprop="url"
+                    >
+                        <span itemprop="name">Реферал</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="vdelo-info">
+            <div class="contacts">
+                <div class="phone">
+                    <a
+                      class="phone-link"
+                      href="tel:+78002016618"
+                    >8 800 201 66 18
+                    </a>
+                </div>
+                <div class="email">
+                    <a
+                      class="mail-link"
+                      href="mailto:support@vdelo.pro"
+                    >support@vdelo.pro
+                    </a>
+                </div>
+                <div class="messengers">
+                    <a
+                        class="telegram-link"
+                        href="tg://resolve?domain=vdelomoney"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер Telegram"
+                            height="30"
+                            src="assets/images/icons/telegram.svg"
+                            width="30"
+                        >
+                    </a>
+                    <a
+                        class="whatsapp-link"
+                        href="whatsapp://send?phone=+79918005859"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер WhatsApp"
+                            height="30"
+                            src="assets/images/icons/whatsapp.svg"
+                            width="30"
+                        >
+                    </a>
+                    <a
+                        class="viber-link"
+                        href="viber://chat?number=+79918005859"
+                        itemprop="url"
+                    >
+                        <img
+                            alt="Мессенджер Viber"
+                            height="30"
+                            src="assets/images/icons/viber.svg"
+                            width="30"
+                        >
+                    </a>
+                </div>
+            </div>
+            <div>
+                Официальные партнеры: <br>
+                ПАО «Сбербанк» и <br>
+                АО «Деловая среда»
+            </div>
+            <img src="assets/images/icons/sbek_futter.svg" width="117" height="31">
+        </div>
+    </div>
+    <div class="c-container">
+        <div class="all-rights-reserved" >
+            © 2022 ООО «ВДело». ОГРН 1206600030647. Все права защищены.
+        </div>
+    </div>
+</div>
+</body>
+</html>
