@@ -17,7 +17,7 @@
 <a style="dislay: none" id="html-base"></a>
 ## 1. HTML, основы, первая страница[⬆](#contents)
 
-> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/), [Страница для верстки](#)
+> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/)
 
 
 <a style="dislay: none" id="base-html"></a>
