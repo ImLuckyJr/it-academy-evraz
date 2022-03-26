@@ -12,6 +12,7 @@
 ## Навигация
 
 &nbsp;&nbsp;&nbsp;<a href="#html-base">1. HTML, основы, первая страница.</a>
+&nbsp;&nbsp;&nbsp;<a href="#css-base">2. CSS, основы.</a>
 
 <!-- Начало блока 1 -->
 <a style="dislay: none" id="html-base"></a>
@@ -38,6 +39,38 @@
 </body>
 </html>
 ```
+</p>
+</details>
+
+<!-- Начало блока 2 -->
+<a style="dislay: none" id="css-base"></a>
+## 1. CSS, основы[⬆](#contents)
+
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/)
+
+
+<a style="dislay: none" id="base-html"></a>
+### Задачи на выполнение базовых операций[⬆](#contents)
+
+<details><summary>Показать / Скрыть</summary>
+<p>
+    
+![1](https://user-images.githubusercontent.com/33654512/160240490-193c12de-2eed-44a1-97ed-1ef181e812ed.png)
+    
+![2](https://user-images.githubusercontent.com/33654512/160240495-74f9bd15-6138-443d-b1df-ab1c845b54f3.png)   
+    
+![3](https://user-images.githubusercontent.com/33654512/160240501-8a582011-569f-4d1b-9991-3e6ee1e1620b.png)
+    
+![4](https://user-images.githubusercontent.com/33654512/160240523-94c6f25d-863f-4ff6-b6a3-03ffbce9e431.png)
+    
+![5](https://user-images.githubusercontent.com/33654512/160240536-fc0dfd06-ba42-4419-9ddb-dab4297b0455.png)
+
+![6](https://user-images.githubusercontent.com/33654512/160240545-fc38f952-d509-4d34-b4bd-4285a3386b60.png)
+
+![7](https://user-images.githubusercontent.com/33654512/160240548-2b02b1e3-2f4b-402e-b8e9-d8aeb50eca0e.png)
+
+![8](https://user-images.githubusercontent.com/33654512/160240555-0d7e67a8-090d-416f-ab94-d2a55ea3b36a.png)
+
 </p>
 </details>
 
