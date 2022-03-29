@@ -13,6 +13,7 @@
 
 &nbsp;&nbsp;&nbsp;<a href="#html-base">1. HTML, основы, первая страница.</a>
 &nbsp;&nbsp;&nbsp;<a href="#css-base">2. CSS, основы.</a>
+&nbsp;&nbsp;&nbsp;<a href="#css-flexbox">3. CSS, flexbox.</a>
 
 <!-- Начало блока 1 -->
 <a style="dislay: none" id="html-base"></a>
@@ -44,7 +45,7 @@
 
 <!-- Начало блока 2 -->
 <a style="dislay: none" id="css-base"></a>
-## 1. CSS, основы[⬆](#contents)
+## 2. CSS, основы[⬆](#contents)
 
 > __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/)
 
@@ -70,6 +71,49 @@
 ![7](https://user-images.githubusercontent.com/33654512/160240548-2b02b1e3-2f4b-402e-b8e9-d8aeb50eca0e.png)
 
 ![8](https://user-images.githubusercontent.com/33654512/160240555-0d7e67a8-090d-416f-ab94-d2a55ea3b36a.png)
+
+</p>
+</details>
+
+<!-- Начало блока 3 -->
+<a style="dislay: none" id="css-flexbox"></a>
+## 3. CSS, flexbox[⬆](#contents)
+
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/)
+
+
+<a style="dislay: none" id="base-html"></a>
+### Задачи для выполнения[⬆](#contents)
+
+<details><summary>Показать / Скрыть</summary>
+<p>
+1. Сделать меню по центру экрана. Кнопки растягиваются по ширине меню. На 2м скриншоте видно, что размер кнопки не 25%, а занимает столько, сколько текста.
+    
+![1](https://user-images.githubusercontent.com/33654512/160599891-dea18e9b-849d-4bdf-8cd9-ffdd9348712f.png)
+
+![2](https://user-images.githubusercontent.com/33654512/160599917-da563fd8-fb8a-44ba-8a53-46fcf0aa1b80.png)
+
+<hr>
+    
+2. Меняем направление кнопок, наоборот.
+    
+![3](https://user-images.githubusercontent.com/33654512/160600464-4ddae39e-84cc-451c-9664-6d1c51aaec21.png)
+
+3. Кнопки теперь не растягиваются на всю ширину, они по центру блока синего.
+    
+![4](https://user-images.githubusercontent.com/33654512/160600607-9c8bb648-9396-444f-9913-b1bfa1484e81.png)
+
+4. Когда много блоков в меню, они должны автоматически переехать на новую строку и стать по центру.
+    
+![5](https://user-images.githubusercontent.com/33654512/160600752-2efed412-6fbf-4431-99bd-cdb9ac273591.png)
+
+5. Сделать чтобы кнопки стали в колонку.
+    
+![6](https://user-images.githubusercontent.com/33654512/160600858-b60fa530-3531-44a4-a397-ddbf18dafdb7.png)
+
+6. Разместить текст по центру экрана.
+    
+![7](https://user-images.githubusercontent.com/33654512/160601366-8044f632-f730-4a02-84f3-c4497d168293.png)
 
 </p>
 </details>
