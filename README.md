@@ -87,34 +87,46 @@
 
 <details><summary>Показать / Скрыть</summary>
 <p>
-1. Сделать меню по центру экрана. Кнопки растягиваются по ширине меню. На 2м скриншоте видно, что размер кнопки не 25%, а занимает столько, сколько текста.
-    
-![1](https://user-images.githubusercontent.com/33654512/160599891-dea18e9b-849d-4bdf-8cd9-ffdd9348712f.png)
 
-![2](https://user-images.githubusercontent.com/33654512/160599917-da563fd8-fb8a-44ba-8a53-46fcf0aa1b80.png)
-
-<hr>
+![1](https://user-images.githubusercontent.com/33654512/161277827-6f0c2aa2-437e-421a-8f38-c1f662155900.png)
     
-2. Меняем направление кнопок, наоборот.
+![2](https://user-images.githubusercontent.com/33654512/161277844-31b361a4-43b4-4552-ad69-8af2c44ed00d.png)
     
-![3](https://user-images.githubusercontent.com/33654512/160600464-4ddae39e-84cc-451c-9664-6d1c51aaec21.png)
-
-3. Кнопки теперь не растягиваются на всю ширину, они по центру блока синего.
+![3](https://user-images.githubusercontent.com/33654512/161277847-c3eb7007-c5ec-4a67-8b43-a35c03089e65.png)
     
-![4](https://user-images.githubusercontent.com/33654512/160600607-9c8bb648-9396-444f-9913-b1bfa1484e81.png)
-
-4. Когда много блоков в меню, они должны автоматически переехать на новую строку и стать по центру.
+![4](https://user-images.githubusercontent.com/33654512/161277851-555f3841-6c9a-4a10-9489-73802295d084.png)
     
-![5](https://user-images.githubusercontent.com/33654512/160600752-2efed412-6fbf-4431-99bd-cdb9ac273591.png)
-
-5. Сделать чтобы кнопки стали в колонку.
+![5](https://user-images.githubusercontent.com/33654512/161277855-c4d66d75-b3f9-46e4-b2e5-454b41e5b590.png)
     
-![6](https://user-images.githubusercontent.com/33654512/160600858-b60fa530-3531-44a4-a397-ddbf18dafdb7.png)
-
-6. Разместить текст по центру экрана.
+![6](https://user-images.githubusercontent.com/33654512/161277862-1935891a-e699-4134-b56f-5305afea6b03.png)
     
-![7](https://user-images.githubusercontent.com/33654512/160601366-8044f632-f730-4a02-84f3-c4497d168293.png)
+![7](https://user-images.githubusercontent.com/33654512/161277869-4f5f00f5-3b7c-4ae8-a73c-72849d91f1d9.png)
+    
+![8](https://user-images.githubusercontent.com/33654512/161277874-d897a6ac-bae2-486d-8a8b-1392af4d6d08.png)
+    
+![9](https://user-images.githubusercontent.com/33654512/161277880-c79bf18f-157e-4010-a31c-e472084a606c.png)
+    
+![10](https://user-images.githubusercontent.com/33654512/161277889-2571a74f-21b9-45d4-81c0-204b049f1ddf.png)
+    
+![11](https://user-images.githubusercontent.com/33654512/161277892-52db91d9-8b04-4a3a-9a83-3126b84c0386.png)
+    
+![12](https://user-images.githubusercontent.com/33654512/161277898-cff47a6a-789f-428d-a078-ae80386ded62.png)
+    
+![13](https://user-images.githubusercontent.com/33654512/161277909-3b07352f-c0cc-45a6-824c-b8d78f5ad2da.png)
+    
+![14](https://user-images.githubusercontent.com/33654512/161277916-769004c2-6888-4cb4-be5e-481e1bcc62be.png)
+    
+![15](https://user-images.githubusercontent.com/33654512/161277919-57a3dfb6-59fd-4c24-9051-96ac3f189844.png)
+    
+![16](https://user-images.githubusercontent.com/33654512/161277929-b77a92f6-67c9-4e71-855b-02d6c2216b05.png)
+    
+![17](https://user-images.githubusercontent.com/33654512/161277934-f0808741-b83b-47cb-8465-f32454bb8cdd.png)
+    
+![18](https://user-images.githubusercontent.com/33654512/161277940-d241c85a-e614-4f6e-bd59-dcb65bbb7bd0.png)
+    
+![20](https://user-images.githubusercontent.com/33654512/161277945-fb51c197-fe39-4f80-b6fc-0ac7589bc197.png)
 
+    
 </p>
 </details>
 
