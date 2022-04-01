@@ -79,7 +79,7 @@
 <a style="dislay: none" id="css-flexbox"></a>
 ## 3. CSS, flexbox[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/)
 
 
 <a style="dislay: none" id="base-html"></a>
