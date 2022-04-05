@@ -104,8 +104,6 @@
     
 ![8](https://user-images.githubusercontent.com/33654512/161277874-d897a6ac-bae2-486d-8a8b-1392af4d6d08.png)
     
-![9](https://user-images.githubusercontent.com/33654512/161277880-c79bf18f-157e-4010-a31c-e472084a606c.png)
-    
 ![10](https://user-images.githubusercontent.com/33654512/161277889-2571a74f-21b9-45d4-81c0-204b049f1ddf.png)
     
 ![11](https://user-images.githubusercontent.com/33654512/161277892-52db91d9-8b04-4a3a-9a83-3126b84c0386.png)
