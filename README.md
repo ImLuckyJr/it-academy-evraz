@@ -48,7 +48,7 @@
 <a style="dislay: none" id="css-base"></a>
 ## 2. CSS, основы[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://hcdev.ru/css/margin//)
 
 
 <a style="dislay: none" id="base-html"></a>
@@ -80,7 +80,7 @@
 <a style="dislay: none" id="css-flexbox"></a>
 ## 3. CSS, flexbox[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/), [Все свойства CSS](https://hcdev.ru/css/margin//)
 
 
 <a style="dislay: none" id="base-html"></a>
@@ -133,7 +133,7 @@
 <a style="dislay: none" id="css-margins"></a>
 ## 4. CSS, свойства блоков [⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://hcdev.ru/css/margin//)
 
 ![image](https://user-images.githubusercontent.com/33654512/162419318-477b9a52-fd44-4955-ba62-de66111e76e0.png)
 
@@ -200,7 +200,30 @@
 
 <details><summary>Показать / Скрыть</summary>
 <p>
+    
+![image](https://user-images.githubusercontent.com/33654512/162421818-b143cb3b-1910-4740-a2d8-1e27c3b32856.png)
 
+![image](https://user-images.githubusercontent.com/33654512/162421879-c2757892-c205-4572-8624-9818714bacbb.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162421902-07df7ff0-4f13-4818-bc85-17e7fb880079.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162421921-4518fec4-bf4a-45f1-97b1-e7a8e74243c8.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162422190-5e9e469b-29b5-4411-9e33-5c8c6918d7e3.png)    
+    
+![image](https://user-images.githubusercontent.com/33654512/162422333-78dd9fa2-60eb-4bca-a6d5-4740ae422cfd.png)
+    
+![image](https://user-images.githubusercontent.com/33654512/162421936-de3c9c72-f82f-4aba-b126-0cdb1916e7c1.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162422615-3ad82774-ed23-4d2b-b7dc-2ae7370f2137.png)
+    
+![image](https://user-images.githubusercontent.com/33654512/162421979-8f00e7c8-ab2b-4399-b695-4d42b935b5d5.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162422025-238bfac3-19b0-47ec-9d1e-759af5406d72.png)
+
+![image](https://user-images.githubusercontent.com/33654512/162422050-ffd1ad0d-4006-4098-abd3-eccdf3b3ef6a.png)
+
+    
 </p>
 </details>
 
