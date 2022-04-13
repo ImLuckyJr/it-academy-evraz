@@ -368,3 +368,5 @@
 ### Все о HTML ([перейти](https://html5book.ru/html-html5/))
 
 ### Все о CSS ([перейти](https://html5book.ru/css-css3/))
+
+[Тест](http://psd-html-css.ru/sites/default/files/public/old/demo/king-template.jpg)
