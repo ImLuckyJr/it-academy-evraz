@@ -480,7 +480,19 @@ span {
 
 ### Шаблоны для верстки
 
-[Шаблон 1](http://psd-html-css.ru/sites/default/files/public/old/demo/psd-html-css.ru-Metronic_Aironepage_FrontendFreebie.jpg), [Шаблон 2](http://psd-html-css.ru/sites/default/files/public/old/demo/king-template.jpg), [Шаблон 3](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureGuriGuriNyoiBootstrap.jpg), [Шаблон 4](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureLand.io.jpg), [Шаблон 5](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureActiveBox.jpg), [Шаблон 6](http://psd-html-css.ru/sites/default/files/public/old/demo/CaptureHalcyonDays.jpg), [Шаблон 7](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureTheBloomWebsiteTemplate.jpg), 
+[Шаблон 1](http://psd-html-css.ru/sites/default/files/public/old/demo/psd-html-css.ru-Metronic_Aironepage_FrontendFreebie.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488858/1.zip)
+
+[Шаблон 2](http://psd-html-css.ru/sites/default/files/public/old/demo/king-template.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488861/2.zip)
+
+[Шаблон 3](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureGuriGuriNyoiBootstrap.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488864/3.zip)
+
+[Шаблон 4](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureLand.io.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488867/4.zip)
+
+[Шаблон 5](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureActiveBox.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488868/5.zip)
+
+[Шаблон 6](http://psd-html-css.ru/sites/default/files/public/old/demo/CaptureHalcyonDays.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488869/6.zip)
+
+[Шаблон 7](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureTheBloomWebsiteTemplate.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488870/7.zip)
 
 <hr>
 
