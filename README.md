@@ -478,6 +478,10 @@ span {
 </p>
 </details>
 
+### Шаблоны для верстки
+
+[Шаблон 1](http://psd-html-css.ru/sites/default/files/public/old/demo/psd-html-css.ru-Metronic_Aironepage_FrontendFreebie.jpg), [Шаблон 2](http://psd-html-css.ru/sites/default/files/public/old/demo/king-template.jpg), [Шаблон 3](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureGuriGuriNyoiBootstrap.jpg), [Шаблон 4](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureLand.io.jpg), [Шаблон 5](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureActiveBox.jpg), [Шаблон 6](http://psd-html-css.ru/sites/default/files/public/old/demo/CaptureHalcyonDays.jpg), [Шаблон 7](http://psd-html-css.ru/sites/default/files/public/old/demo/FireShotCaptureTheBloomWebsiteTemplate.jpg), 
+
 <hr>
 
 # Все что находится ниже - находится на доработке. Смотреть пока бессмысленно.
