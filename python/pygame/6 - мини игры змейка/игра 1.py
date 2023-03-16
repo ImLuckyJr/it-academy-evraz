@@ -84,21 +84,23 @@ while 1:
 
     # создание ректа блока еды
     if len(foods) == 0:
-        foodrect = foodblock.get_rect()
-        foodrect.centerx = random.randint(0, WIDTH)
-        foodrect.centery = random.randint(0, HEIGHT)
-        foods.append(foodrect)
+        for i in range(10):
+            foodrect = foodblock.get_rect()
+            foodrect.centerx = random.randint(0, WIDTH)
+            foodrect.centery = random.randint(0, HEIGHT)
+            foods.append(foodrect)
 
     # проверка столкновения блока еды и змеи
-    if len(foods) > 0:
-        if block2rect.colliderect(foods[0]) == True:
+    for i in range(len(foods)):
+        if block2rect.colliderect(foods[i]) == True:
             # foods = []
-            foods.pop(0)
+            foods.pop(i)
             count += 1
+            break
 
     # рисуем блок еды
-    if len(foods) > 0:
-        mainScreen.blit(foodblock, foods[0])
+    for foodrect in foods:
+        mainScreen.blit(foodblock, foodrect)
 
     # рисуем змею
     mainScreen.blit(block2, block2rect)
