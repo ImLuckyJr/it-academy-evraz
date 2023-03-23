@@ -12,9 +12,9 @@ SPEED = 10
 changeX = 0
 
 # настройки главного экрана
-WIDTH = 1500
-HEIGHT = 1000
-mainScreen = pygame.display.set_mode((WIDTH, HEIGHT))
+WIDTH = 1920
+HEIGHT = 1200
+mainScreen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
 mainScreenColor = WHITE
 pygame.display.set_caption("Моя игра")
 
