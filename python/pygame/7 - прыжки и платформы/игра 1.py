@@ -38,14 +38,39 @@ manl = pygame.transform.flip(manl, True, False)
 
 man = manstand
 manrect = manr.get_rect()
-manrect.bottom = HEIGHT
-manrect.left = 0
+manrect.bottom = HEIGHT//2
+manrect.left = WIDTH//2
 
-platform = pygame.Surface((250, 100))
+platform = pygame.image.load('кирпич шоколадка small.png')
+
+# platform = pygame.Surface((250, 100))
 
 # массив rect'ов для еды
 platforms = [
-    platform.get_rect(left = 0, bottom = HEIGHT - 200)
+    # platform.get_rect(left = 0, bottom = HEIGHT - 200)
+]
+
+map =  [
+    '******************************',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*                            *',
+    '*            **              *',
+    '*            **              *',
+    '*            **              *',
+    '*            **              *',
+    '*          ******        *****',
+    '*****                        *',
+    '*                            *',
+    '******************************'
 ]
 
 while 1:
@@ -58,6 +83,18 @@ while 1:
                 jump = True
                 jumpCount = jumpMax
                 onGround = False
+                onPlatform = False
+
+    platforms = []
+
+    for i in range(len(map)):
+        for j in range(len(map[i])):
+            if map[i][j] == '*':
+                platformrect = platform.get_rect()
+                platformrect.x = 50 * j
+                platformrect.y = 50 * i
+                platforms.append(platformrect)
+                mainScreen.blit(platform, platformrect)
 
     manrect_old = manrect.copy()
 
@@ -96,18 +133,34 @@ while 1:
     # проверка столкновения блока еды и змеи
     for platformrect in platforms:
         if manrect.colliderect(platformrect) == True:
-            print('столкнулись')
-
             # движемся налево
             if manrect.left < manrect_old.left:
                 manrect.x -= changeX
+                # manrect.left = platformrect.right
+
+            # движемся направо
+            if manrect.right > manrect_old.right:
+                manrect.x -= changeX
+                # manrect.left = platformrect.right
 
         if manrect.colliderect(platformrect) == True:
             # движемся вниз
             if manrect.bottom > manrect_old.bottom:
                 jump = False
                 onGround = True
+                onPlatform = True
                 manrect.bottom = platformrect.top
+
+    # Проверка падаем с платформы, потому что вышли с неё
+    if onPlatform == True:
+        manrect_next = manrect.copy()
+        manrect_next.y += 1
+
+        if manrect_next.collidelist(platforms) == -1:
+            jump = True
+            jumpCount = -1
+            onGround = False
+            onPlatform = False
 
     # заливаем главный фон черным цветом
     mainScreen.fill(mainScreenColor)
