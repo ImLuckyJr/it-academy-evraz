@@ -5,3 +5,5 @@
 [Что такое PYGAME? Туториалы, которые будем использовать](https://proproprogs.ru/modules/chto-takoe-pygame-karkas-prilozheniya-fps)
 
 [Нарисовать свой спрайт (картинку)](https://www.pixilart.com/draw?ref=home-page)
+
+[Уменьшить/обрезать картинку](https://www.resizepixel.com/ru/download)
