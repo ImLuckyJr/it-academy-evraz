@@ -28,6 +28,10 @@ print(response)
 
 1. Получение директоров и учредителей по компании (включая историю)
 
+[Посмотреть документацию по директорам](https://focus-api.kontur.ru/api3/req/userform) (Ищем `heads`)
+
+[Посмотреть документацию по учредителям](https://focus-api.kontur.ru/api3/egrDetails/userform) (Ищем `founders`)
+
 ```python
 import requests # подключаем библиотеку
 
@@ -44,6 +48,9 @@ print(response)
 
 2. Получение компаний, связанных с человеком
 
+[Посмотреть документацию](https://focus-api.kontur.ru/api3/personAffiliates/req/userform)
+
+
 ```python
 import requests # подключаем библиотеку
 
@@ -58,7 +65,10 @@ response = response.json()
 print(response)
 ```
 
+
 3. Получение компаний, связанных с текущей компанией
+
+[Посмотреть документацию](https://focus-api.kontur.ru/api3/companyAffiliates/req/userform)
 
 ```python
 import requests # подключаем библиотеку
