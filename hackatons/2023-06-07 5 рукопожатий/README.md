@@ -28,9 +28,9 @@ print(response)
 
 1. Получение директоров и учредителей по компании (включая историю)
 
-[Посмотреть документацию по директорам](https://focus-api.kontur.ru/api3/req/userform) (Ищем `heads`)
+<a href="https://focus-api.kontur.ru/api3/req/userform" target="_blank">Посмотреть документацию по директорам</a>  (Ищем `heads`)
 
-[Посмотреть документацию по учредителям](https://focus-api.kontur.ru/api3/egrDetails/userform) (Ищем `founders`)
+<a href="https://focus-api.kontur.ru/api3/egrDetails/userform" target="_blank">Посмотреть документацию по учредителям</a>  (Ищем `founders`)
 
 ```python
 import requests # подключаем библиотеку
