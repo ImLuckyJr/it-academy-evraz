@@ -1,6 +1,6 @@
 ## Хакатон Евраз 1 курс, аффилированные лица через 5 рукопожатий (07.06.2023)
 
-[Пожалуйста, заполните номера телефонов. Каждый сам за себя!](https://docs.google.com/spreadsheets/d/1N3gELG4OZ992reUJ4yI_11QpWzq_hCMnHa1nGON3AoY/edit#gid=0)
+[Пожалуйста, заполните номера телефонов. Каждый сам за себя!](https://docs.google.com/spreadsheets/d/1l4hvvuZQkPoGG2Cgw9MaDpCi8fETq8_OaW75FtQ0PBQ/edit?usp=sharing)
 
 ### Устанавливаем библиотеку
 
