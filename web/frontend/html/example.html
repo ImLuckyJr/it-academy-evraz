@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя первая страница</title>
+</head>
+<body>
+<h1>Страница пример</h1>
+<h2>Содержание</h2>
+<ol>
+    <li><a href="#par">Параграфы и текст</a></li>
+    <li><a href="#divspan">Блочные и строчные контейнеры</a></li>
+    <li><a href="#p1">Картинки</a></li>
+    <li><a href="#p2">Таблицы</a></li>
+    <li><a href="#p3">Пункт 3</a></li>
+    <li><a href="#p4">Пункт 4</a></li>
+</ol>
+<h3 id="par">Параграфы</h3>
+<p>Это параграф. Обычный блочный тег, который открывается и закрывается.</p>
+<p>Если создать после тега параграфа еще один, он будет идти ниже предыдущего, т.к. занимает блочный тег занимает всю строку. И иметь отступ. Узрите.</p>
+<p>Также в тексте можно текст делать разным: <i>вот таким</i>, <b>вот таким</b>, <u>вот таким</u>, <s>вот таким</s>, <i><b><u><s>или совмещать всё вместе</s></u></b></i></p>
+<h3 id="divspan">Блочные и строчные контейнеры</h3>
+<div>Блочный контейнер <b>div</b> предназначен много для чего. Чаще всего в нём: помещают другие теги, помещают текст.</div>
+<div>Если после тега <b>div</b> поместить еще один такой тег, он будет ниже предыдущего, т.к. занимает блочный тег занимает всю строку.</div>
+<span>Тег span же наоборот, строчный. Занимает места столько, сколько в нем контента.</span>
+<span>Если поместить другой тег <b>span</b> после предыдущего, он будет идти сразу за ним, не с новой строки.</span>
+<h3 id="p1">Картинки</h3>
+<h4>В ряд</h4>
+<img src="https://master-pro76.ru/gallery_gen/cae50b588f0df11e3d31c7a4591e1ff9.png">
+<img src="https://master-pro76.ru/gallery_gen/cae50b588f0df11e3d31c7a4591e1ff9.png">
+<img src="https://master-pro76.ru/gallery_gen/cae50b588f0df11e3d31c7a4591e1ff9.png" width="200" height="200">
+<h4>В колонку</h4>
+<div>
+    <img src="https://avatars.mds.yandex.net/i?id=8e3883a85db3de7c96b782d4bc5d8a442f1ab060-7607859-images-thumbs&n=13">
+</div>
+<div>
+    <img src="https://avatars.mds.yandex.net/i?id=8e3883a85db3de7c96b782d4bc5d8a442f1ab060-7607859-images-thumbs&n=13">
+</div>
+<div>
+    <img src="https://avatars.mds.yandex.net/i?id=8e3883a85db3de7c96b782d4bc5d8a442f1ab060-7607859-images-thumbs&n=13" width="200" height="200">
+</div>
+<h3 id="p2">Таблицы</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Spending</th>
+            <th>Earnings</th>
+            <th>Holdings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>$800</td>
+            <td>$700</td>
+            <td>-$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$900</td>
+            <td>$935</td>
+            <td>+$35</td>
+        </tr>
+        <tr>
+            <th>March</th>
+            <td colspan="3">-</td>
+        </tr>
+    </tbody>
+</table>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Spending</th>
+            <th>Earnings</th>
+            <th>Holdings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>$800</td>
+            <td>$700</td>
+            <td>-$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$900</td>
+            <td>$935</td>
+            <td>+$35</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td colspan="3">-</td>
+        </tr>
+    </tbody>
+</table>
+<h3 id="p3">Пункт 3</h3>
+-
+<h3 id="p4">Пункт 4</h3>
+-
+</body>
+</html>
