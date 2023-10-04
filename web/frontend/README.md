@@ -11,7 +11,7 @@
 <a style="dislay: none" id="contents"></a>
 ## Навигация
 
-&nbsp;&nbsp;&nbsp;<a href="#html-base">1. HTML, основы, первая страница.</a>
+1. [HTML, основы, первая страница.](html/README.md)
 
 &nbsp;&nbsp;&nbsp;<a href="#css-base">2. CSS, основы.</a>
 
@@ -20,35 +20,6 @@
 &nbsp;&nbsp;&nbsp;<a href="#css-margins">4. CSS, работа с отступами и с float.</a>
 
 &nbsp;&nbsp;&nbsp;<a href="#css-selectors">5. CSS, селекторы</a>
-
-<!-- Начало блока 1 -->
-<a style="dislay: none" id="html-base"></a>
-## 1. HTML, основы, первая страница[⬆](#contents)
-
-> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/), [Ссылка на пример](http://81.177.140.128/index2)
-
-> Тег `div` служит контейнером для других тегов. Сам по себе он ничего не делает, однако в него можно положить много разных тегов, например, абзацев и заголовков.
-
-<a style="dislay: none" id="base-html"></a>
-### Базовый код для HTML-страницы[⬆](#contents)
-
-<details><summary>Показать / Скрыть</summary>
-<p>
-
-```HTML
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
-```
-</p>
-</details>
 
 <!-- Начало блока 2 -->
 <a style="dislay: none" id="css-base"></a>
