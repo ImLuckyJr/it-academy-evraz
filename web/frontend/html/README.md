@@ -3,7 +3,7 @@
 
 ### HTML, основы, первая страница [назад к выбору курса](../README.md)
 
-> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/), [Ссылка на пример](http://81.177.140.128/index2)
+> __Полезные ссылки__: <a href="#base-html">Базовый код для HTML-страницы</a>, [Все о HTML](https://html5book.ru/html-html5/), [Ссылка на пример](https://imluckyjr.github.io/it-academy-evraz/web/frontend/html/example.html)
 
 > Тег `div` служит контейнером для других тегов. Сам по себе он ничего не делает, однако в него можно положить много разных тегов, например, абзацев и заголовков.
 
