@@ -40,7 +40,9 @@
 ![8](https://user-images.githubusercontent.com/33654512/160240555-0d7e67a8-090d-416f-ab94-d2a55ea3b36a.png)
 
 </p>
-</details><!-- Начало блока 2 -->
+</details>
+
+<!-- Начало блока 2 -->
 <a style="dislay: none" id="css-selectors"></a>
 ## 2. CSS, селекторы[⬆](#contents)
 
