@@ -440,7 +440,7 @@ span {
 
 <!-- Начало блока 5 -->
 <a style="dislay: none" id="css-base"></a>
-## 1. Практика, верстаем свои шаблоны[⬆](#contents)
+## 5. Практика, верстаем свои шаблоны[⬆](#contents)
 
 [Шаблон 1](http://psd-html-css.ru/sites/default/files/public/old/demo/psd-html-css.ru-Metronic_Aironepage_FrontendFreebie.jpg), [архив с картинками](https://github.com/ImLuckyJr/it-academy-evraz/files/8488858/1.zip)
 
