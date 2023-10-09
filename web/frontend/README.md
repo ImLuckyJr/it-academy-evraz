@@ -25,7 +25,7 @@
 <a style="dislay: none" id="css-base"></a>
 ## 2. CSS, основы[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://hcdev.ru/css/margin//)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://msiter.ru/references/css-reference)) 
 
 
 <a style="dislay: none" id="base-html"></a>
