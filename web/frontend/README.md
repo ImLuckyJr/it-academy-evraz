@@ -25,7 +25,7 @@
 <a style="dislay: none" id="css-base"></a>
 ## 2. CSS, основы[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://msiter.ru/references/css-reference)) 
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://msiter.ru/references/css-reference) 
 
 
 <a style="dislay: none" id="base-html"></a>
@@ -57,7 +57,7 @@
 <a style="dislay: none" id="css-flexbox"></a>
 ## 3. CSS, flexbox[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/), [Все свойства CSS](https://hcdev.ru/css/margin//)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Шпаргалка по Flexbox](https://tpverstak.ru/flex-cheatsheet/), [Все свойства CSS](https://msiter.ru/references/css-reference)
 
 
 <a style="dislay: none" id="base-html"></a>
@@ -110,7 +110,7 @@
 <a style="dislay: none" id="css-margins"></a>
 ## 4. CSS, свойства блоков [⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://hcdev.ru/css/margin//)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://msiter.ru/references/css-reference)
 
 ![image](https://user-images.githubusercontent.com/33654512/162419318-477b9a52-fd44-4955-ba62-de66111e76e0.png)
 
@@ -208,7 +208,7 @@
 <a style="dislay: none" id="css-selectors"></a>
 ## 5. CSS, селекторы[⬆](#contents)
 
-> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://hcdev.ru/css/margin//)
+> __Полезные ссылки__: [Все о CSS](https://html5book.ru/css-css3/), [Все свойства CSS](https://msiter.ru/references/css-reference)
 
 Прежде чем начать изучать селекторы, знакомимся с новым написанием стилей. 
 
