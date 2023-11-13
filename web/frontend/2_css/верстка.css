@@ -1,0 +1,88 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613162787_81-p-zheltii-fon-minimalizm-108.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head__body {
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head .top .menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.head .top .menu .menu__item {
+    margin-right: 20px;
+}
+
+.head .top .menu .menu__item:last-of-type {
+    margin-right: 0;
+}
+
+.head .middle {
+    text-align: center;
+}
+
+.head .middle h1 {
+    font-size: 4rem;
+}
+
+.head .middle h1 span {
+    font-size: 2em;
+}
+
+.head .middle div:nth-child(2) {
+    font-size: 2rem;
+}
+
+.head .middle button {
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 20px 50px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+}
+
+.head .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head .bottom .social {
+    border-right: 3px solid red;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+
+.head .bottom .social:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
