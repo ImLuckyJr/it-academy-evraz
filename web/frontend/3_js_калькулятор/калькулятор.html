@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link
+        rel="stylesheet"
+        href="калькулятор.css"
+    >
+</head>
+<body>
+<div class="calc">
+    <output class="calc__result" id="result">1234567890</output>
+    <button type="button" class="calc__btn">7</button>
+    <button type="button" class="calc__btn">8</button>
+    <button type="button" class="calc__btn">9</button>
+    <button type="button" class="calc__btn calc__btn_operator">+</button>
+    
+    <button type="button" class="calc__btn">4</button>
+    <button type="button" class="calc__btn">5</button>
+    <button type="button" class="calc__btn">6</button>
+    <button type="button" class="calc__btn calc__btn_operator">-</button>
+    
+    <button type="button" class="calc__btn">1</button>
+    <button type="button" class="calc__btn">2</button>
+    <button type="button" class="calc__btn">3</button>
+    <button type="button" class="calc__btn calc__btn_operator">*</button>
+    
+    <button type="button" class="calc__btn">0</button>
+    <button type="button" class="calc__btn">.</button>
+    <button type="button" class="calc__btn">00</button>
+    <button type="button" class="calc__btn calc__btn_operator">/</button>
+    
+    <button type="button" class="calc__btn calc__btn_reset">C</button>
+    <button type="button" class="calc__btn calc__btn_equal">=</button>
+</div>
+
+<!--<script src="калькулятор.js"></script>-->
+<script>
+    const calc = document.querySelector('div.calc');
+    let output = document.querySelector('output')
+    if (calc) {
+        calc.addEventListener('click', function(event) {
+            const target = event.target;
+            if (target.tagName === 'BUTTON') {
+                if (target.classList.contains('calc__btn_reset')) {
+                    console.log('calc__btn_reset');
+                }
+                else if (target.classList.contains('calc__btn_equal')) {
+                    console.log('calc__btn_equal');
+                }
+                else {
+                    output.innerText += target.innerText;
+                }
+            }
+        })
+    }
+    else {
+        console.error('нет блока калькулятора');
+    }
+</script>
+</body>
+</html>
