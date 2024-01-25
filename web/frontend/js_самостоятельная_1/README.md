@@ -1,0 +1,6 @@
+![1](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/1b2cb539-f54f-4e1a-8201-35a390264314)
+![2](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/1e1f9f4c-e098-4098-8e6e-50308def7529)
+![3](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/52d61f13-6dda-4ab4-9968-afb10cb71fa4)
+![4](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/f34ac9ad-2087-4620-849a-c9074df1f834)
+![5](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/1ea9ce7e-5c32-40d1-b121-323ef3d3cf4a)
+![6](https://github.com/ImLuckyJr/it-academy-evraz/assets/33654512/93175b5e-83e9-4764-8503-906856b22ef6)
