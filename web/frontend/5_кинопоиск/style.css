@@ -50,8 +50,6 @@ body {
 .movie__cover-inner {
   position: relative;
   height: 360px;
-  background-size: contain;
-  background-position: center;
 }
 
 .movie__cover {

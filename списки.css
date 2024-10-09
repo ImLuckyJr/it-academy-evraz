@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+body > div {
+    flex: 1;
+    padding: 30px;
+    min-height: 100%;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+#form form > div {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+#form form > div:last-child {
+    margin-bottom: 0;
+}
+
+#form form > #discount-body {
+    display: none;
+}
+
+#form .button button {
+    margin: 20px auto 0;
+    display: block;
+    width: 450px;
+}
+
+.item {
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.items-list h3 {
+    text-align: center;
+}
+
+.item-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.item-category {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    margin-bottom: 25px;
+}
+
+.item-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-bottom > div {
+    display: flex;
+}
+
+.item-price {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+        "text number"
+        ". discount";
+}
+
+.item-price-text {
+    grid-area: text;
+}
+
+.item-price-number {
+    grid-area: number;
+}
+
+.item-price-number.strike {
+    text-decoration: line-through;
+}
+
+.item-price-discount {
+    grid-area: discount;
+}
+
+.item-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-family: "Courier New";
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.item-close:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
