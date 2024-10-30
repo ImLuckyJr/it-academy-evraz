@@ -1,0 +1,11 @@
+div > h1,
+div > h3 {
+    margin: 5px;
+    display: inline-block;
+}
+
+div > span {
+    display: inline-block;
+    min-width: 50px;
+    border-bottom: 1px solid gray;
+}
