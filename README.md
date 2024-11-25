@@ -2,4 +2,4 @@
 
 Для продолжения работы вам необходимо выбрать необходимый раздел сверху.
 
-[Открыть как сайт](https://imluckyjr.github.io/it-academy-evraz/)
+[Открыть как сайт](https://imluckyjr.github.io/it-academy-evraz/web)
