@@ -1,0 +1,24 @@
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-row input {
+    width: 250px;
+    border: 1px solid darkgrey;
+}
+
+.input-row.higher {
+    color: green;
+}
+
+.input-row.higher input {
+    background-color: rgba(0, 128, 0, 0.34);
+    border-color: green;
+}
+
+#res {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
