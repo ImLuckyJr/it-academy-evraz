@@ -11,8 +11,8 @@
 <a style="dislay: none" id="contents"></a>
 ## Навигация
 
-1. [HTML, основы, первая страница.](1_html/README.md)
-2. [CSS, основы](2_css/README.md)
+1. [HTML, основы, первая страница.](01_html/README.md)
+2. [CSS, основы](02_css/README.md)
 3. JavaScript
 
 # Все что находится ниже - находится на доработке. Смотреть пока бессмысленно.
